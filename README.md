@@ -24,10 +24,11 @@ cd my-repo
 ## Download and apply the patch file
 
 Download the
-[patchfile](https://raw.githubusercontent.com/tdjames1/fair4rs-lesson-setup/main/fair4rs_config.patch)
+[patch file](https://raw.githubusercontent.com/tdjames1/fair4rs-lesson-setup/main/fair4rs_config.patch?token=GHSAT0AAAAAACKHZVPAZGMVZTGGAUHQOBPSZO4YZ5A).
+
+Apply the patch file:
 
 ```
-wget https://raw.githubusercontent.com/tdjames1/fair4rs-lesson-setup/main/fair4rs_config.patch
 git apply fair4rs_config.patch
 ```
 
