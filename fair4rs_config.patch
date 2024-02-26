@@ -1,0 +1,73 @@
+diff --git a/CITATION.cff b/CITATION.cff
+new file mode 100644
+index 0000000..5c69f4d
+--- /dev/null
++++ b/CITATION.cff
+@@ -0,0 +1,23 @@
++# This CITATION.cff file was generated with cffinit.
++# Visit https://bit.ly/cffinit to generate yours today!
++
++cff-version: 1.2.0
++title: Lesson Title # FIXME
++message: >-
++  If you use this software, please cite it using the
++  metadata from this file.
++type: software
++authors:
++  - given-names: '' # FIXME
++    family-names: '' # FIXME
++    email: '' # FIXME
++    affiliation: University of Sheffield
++    orcid: 'https://orcid.org/0000-XXXX-XXXX-XXXX' # FIXME
++repository-code: 'https://github.com/' # FIXME
++url: '' # FIXME
++abstract: >-
++  # FIXME
++keywords: # FIXME
++  - carpentries
++  - fair4rs
++license: CC-BY-4.0
+diff --git a/config.yaml b/config.yaml
+index b3bfd79..87445c7 100644
+--- a/config.yaml
++++ b/config.yaml
+@@ -17,23 +17,28 @@ title: 'Lesson Title' # FIXME
+ created: ~ # FIXME
+ 
+ # Comma-separated list of keywords for the lesson
+-keywords: 'software, data, lesson, The Carpentries' # FIXME
++keywords: 'software, lesson, The Carpentries, FAIR4RS' # FIXME
+ 
+ # Life cycle stage of the lesson
+ # possible values: pre-alpha, alpha, beta, stable
+-life_cycle: 'pre-alpha' # FIXME
++# (the default, pre-alpha, is the appropriate for brand new lessons)
++life_cycle: 'pre-alpha'
+ 
+ # License of the lesson
+ license: 'CC-BY 4.0'
+ 
+ # Link to the source repository for this lesson
+-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
++source: 'https://github.com/RSE-Sheffield/example-workbench' # FIXME
+ 
+ # Default branch of your lesson
+ branch: 'main'
+ 
+ # Who to contact if there are any issues
+-contact: 'team@carpentries.org' # FIXME
++contact: 'rse@sheffield.ac.uk' # FIXME
++
++# Custom URL if you are deploying to a URL that is not the default
++# github pages domain
++# url:
+ 
+ # Navigation ------------------------------------------------
+ #
+@@ -74,5 +79,4 @@ profiles:
+ #
+ # This space below is where custom yaml items (e.g. pinning
+ # sandpaper and varnish versions) should live
+-
+-
++varnish: RSE-Sheffield/uos-varnish@main
