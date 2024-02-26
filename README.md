@@ -18,18 +18,18 @@ first website build when your new repository is initialised.
 
 ```
 git clone git@github.com:path/to/my-repo.git
-cd my-repo
 ```
 
 ## Download and apply the patch file
 
-Download the
-[patch file](https://raw.githubusercontent.com/tdjames1/fair4rs-lesson-setup/main/fair4rs_config.patch?token=GHSAT0AAAAAACKHZVPAZGMVZTGGAUHQOBPSZO4YZ5A).
+Download
+[fair4rs\_config.patch](https://raw.githubusercontent.com/tdjames1/fair4rs-lesson-setup/main/fair4rs_config.patch?token=GHSAT0AAAAAACKHZVPAZGMVZTGGAUHQOBPSZO4YZ5A).
 
 Apply the patch file:
 
 ```
-git apply fair4rs_config.patch
+cd my-repo
+git apply path/to/fair4rs_config.patch
 ```
 
 ## Edit configuration and citation metadata
@@ -68,7 +68,7 @@ git push
 
 ## Complete setup
 
-To complete setup of your lesson, follow the set up instructions given
+To complete setup of your lesson, follow the instructions given
 in [Configure a new lesson](https://github.com/carpentries/workbench-template-md#configure-a-new-lesson).
 
 ## Lesson development
