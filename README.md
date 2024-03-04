@@ -1,7 +1,7 @@
-# FAIR4RS lesson setup
+# UoS-RSE FAIR for Research Software lesson setup
 
 Instructions for setting up a lesson repository for the University of
-Sheffield FAIR4RS training programme.
+Sheffield FAIR for Research Software training programme.
 
 ## Create a new lesson repository from the Carpentries Workbench Template
 
@@ -76,3 +76,17 @@ in [Configure a new lesson](https://github.com/carpentries/workbench-template-md
 Please refer to the [Introduction to The Carpentries
 Workbench](https://carpentries.github.io/sandpaper-docs/) for further
 documentation.
+
+## Licence
+
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+
+This work is derived from material in the [Carpentries Workbench
+Template](https://github.com/carpentries/workbench-template-md), which
+is Copyright (c) [The Carpentries](https://carpentries.org/) and is
+made available under the [Creative Commons
+Attribution](https://creativecommons.org/licenses/by/4.0/) license.
+Changes have been made to adapt the instructions for using the
+Carpentries Workbench Template in the specific context of the
+University of Sheffield's FAIR for Research Software training
+programme.
