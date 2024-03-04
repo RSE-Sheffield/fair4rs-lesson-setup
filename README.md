@@ -85,7 +85,7 @@ This work is derived from material in the [Carpentries Workbench
 Template](https://github.com/carpentries/workbench-template-md), which
 is Copyright (c) [The Carpentries](https://carpentries.org/) and is
 made available under the [Creative Commons
-Attribution](https://creativecommons.org/licenses/by/4.0/) license.
+Attribution](https://creativecommons.org/licenses/by/4.0/) licence.
 Changes have been made to adapt the instructions for using the
 Carpentries Workbench Template in the specific context of the
 University of Sheffield's FAIR for Research Software training
