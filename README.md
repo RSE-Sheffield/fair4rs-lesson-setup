@@ -22,8 +22,7 @@ git clone git@github.com:path/to/my-repo.git
 
 ## Download and apply the patch file
 
-Download
-[fair4rs\_config.patch](https://raw.githubusercontent.com/tdjames1/fair4rs-lesson-setup/main/fair4rs_config.patch?token=GHSAT0AAAAAACKHZVPAZGMVZTGGAUHQOBPSZO4YZ5A).
+Download [fair4rs\_config.patch](https://raw.githubusercontent.com/tdjames1/fair4rs-lesson-setup/main/fair4rs_config.patch).
 
 Apply the patch file:
 
