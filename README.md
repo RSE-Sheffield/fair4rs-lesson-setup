@@ -32,7 +32,7 @@ cd my-repo
 git apply path/to/fair4rs_config.patch
 ```
 
-## Edit configuration and citation metadata
+## Edit configuration, citation metadata and licence
 
 ### config.yaml
 
@@ -58,10 +58,15 @@ minimum, you should adjust all the fields marked 'FIXME':
 * abstract
 * keywords
 
-## Commit configuration and citation
+### LICENSE.md
+
+Review licence text and add references/attribution to any derived
+material.
+
+## Commit configuration, citation and licence
 
 ```
-git add config.yaml CITATION.cff
+git add config.yaml CITATION.cff LICENSE.md
 git commit -m "Update configuration"
 git push
 ```
