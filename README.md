@@ -62,8 +62,8 @@ the markdown version contain static content only.
 Visit https://github.com/carpentries/workbench-template-md/generate
 (markdown) or
 https://github.com/carpentries/workbench-template-rmd/generate (R
-Markdown) and follow the instructions to generate a repository from
-the Carpentries Workbench Template. Checking the 'Include all
+Markdown) and follow the instructions to generate a lesson repository
+from the Carpentries Workbench Template. Checking the 'Include all
 branches' option will save some time waiting for the first website
 build when your new repository is initialised.
 
