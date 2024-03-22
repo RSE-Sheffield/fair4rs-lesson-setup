@@ -18,6 +18,12 @@ content is written as markdown or RMarkdown and rendered using `R` and
 `pandoc`.  Lessons can be developed within the [RStudio
 IDE](https://posit.co/download/rstudio-desktop/#download).
 
+We use a [custom fork](https://github.com/RSE-Sheffield/uos-varnish)
+of [{varnish}](https://github.com/carpentries/varnish) from [The
+Carpentries Workbench](https://carpentries.github.io/workbench) to
+apply University of Sheffield branding to the lesson theme and to add
+relevant links to training resources to the page footer.
+
 ### Setting up your lesson development environment
 
 Required software:
@@ -30,6 +36,12 @@ Required software:
 Please refer to [The Carpentries installation instructions]
 (https://carpentries.github.io/sandpaper-docs/#required) for setting
 up your lesson development environment.
+
+### Applying custom {varnish} locally
+
+To enable the custom theme to be applied when rendering the site
+locally, please refer to the following [instructions for installing
+`uos-varnish`](https://github.com/RSE-Sheffield/uos-varnish?tab=readme-ov-file#applying-varnish-locally).
 
 ## Create a new lesson repository from the Carpentries Workbench Template
 
