@@ -33,9 +33,14 @@ Required software:
 - pandoc (>= 2.11) (available through the [RStudio
   IDE](https://posit.co/download/rstudio-desktop/#download))
 
-Please refer to [The Carpentries installation
+Please refer to [The Carpentries Workbench installation
 instructions](https://carpentries.github.io/sandpaper-docs/#required)
 for setting up your lesson development environment.
+
+Note: if you choose to use to use R Markdown in your lesson then you
+will need the `rmarkdown` package, which should be installed as a
+dependency of the `sandpaper` package by following the instructions
+above.
 
 ### Applying custom {varnish} locally
 
@@ -47,12 +52,20 @@ locally, please refer to the following [instructions for installing
 
 To create a new lesson repository, make sure you're logged into GitHub.
 
+The Carpentries Workbench Template is available in two forms, [plain
+markdown](https://github.com/carpentries/workbench-template-md) or [R
+Markdown](https://github.com/carpentries/workbench-template-rmd). In
+the R Markdown version the example episode is written in R Markdown
+and contains an example of dynamic content generated using R, while
+the markdown version contain static content only.
+
 Visit https://github.com/carpentries/workbench-template-md/generate
-and follow the instructions to generate a repository from the
-[Carpentries Workbench
-Template](https://github.com/carpentries/workbench-template-md). Checking
-the 'Include all branches' option will save some time waiting for the
-first website build when your new repository is initialised.
+(markdown) or
+https://github.com/carpentries/workbench-template-rmd/generate (R
+Markdown) and follow the instructions to generate a repository from
+the Carpentries Workbench Template. Checking the 'Include all
+branches' option will save some time waiting for the first website
+build when your new repository is initialised.
 
 ## Clone the lesson repository
 
