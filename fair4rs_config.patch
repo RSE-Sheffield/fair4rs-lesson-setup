@@ -260,3 +260,14 @@ index b3bfd79..87445c7 100644
 -
 -
 +varnish: RSE-Sheffield/uos-varnish@main
+diff --git a/learners/acknowledgements.md b/learners/acknowledgements.md
+new file mode 100644
+index 0000000..ab7479a
+--- /dev/null
++++ b/learners/acknowledgements.md
+@@ -0,0 +1,5 @@
++---
++title: 'Acknowledgements'
++---
++
++This training has been created by the [RSE team](https://rse.shef.ac.uk) at the [University of Sheffield](https://www.sheffield.ac.uk/), supported by the [Department of Computer Science](https://www.sheffield.ac.uk/dcs) and [IT services](https://www.sheffield.ac.uk/it-services/research).
