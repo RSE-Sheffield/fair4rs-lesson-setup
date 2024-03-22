@@ -33,9 +33,9 @@ Required software:
 - pandoc (>= 2.11) (available through the [RStudio
   IDE](https://posit.co/download/rstudio-desktop/#download))
 
-Please refer to [The Carpentries installation instructions]
-(https://carpentries.github.io/sandpaper-docs/#required) for setting
-up your lesson development environment.
+Please refer to [The Carpentries installation
+instructions](https://carpentries.github.io/sandpaper-docs/#required)
+for setting up your lesson development environment.
 
 ### Applying custom {varnish} locally
 
@@ -71,7 +71,7 @@ Apply the patch file to the lesson repository:
 
 ```
 cd my-repo
-git apply path/to/fair4rs_config.patch
+git apply --index path/to/fair4rs_config.patch
 ```
 
 ### Rename `.Rproj` file
