@@ -152,7 +152,7 @@ index 6c2b81c..f71bc09 100644
  [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
  [dc-lessons]: https://datacarpentry.org/lessons/
 diff --git a/LICENSE.md b/LICENSE.md
-index 7632871..94f3567 100644
+index 7632871..a5643a7 100644
 --- a/LICENSE.md
 +++ b/LICENSE.md
 @@ -4,9 +4,23 @@ title: "Licenses"
@@ -169,7 +169,7 @@ index 7632871..94f3567 100644
 +[Creative Commons
 +Attribution](https://creativecommons.org/licenses/by/4.0/) licence.
 +[Changes have been
-+made](https://github.com/tdjames1/fair4rs-lesson-setup) to adapt the
++made](https://github.com/RSE-Sheffield/fair4rs-lesson-setup) to adapt the
 +template to the specific context of the University of Sheffield's FAIR
 +for Research Software training programme.
 +
