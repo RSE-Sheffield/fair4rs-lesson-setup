@@ -164,8 +164,8 @@ website build workflows are still running. The branch should become
 available when those have completed.
 
 Once you've activated GitHub Pages, content pushed to the repository
-will be deployed by GitHub Actions. You can view the lesson website at
-https://USER.github.io/MY-REPO/.
+will be deployed automatically by GitHub Actions. You can view the
+lesson website at https://username.github.io/my-repo/.
 
 ### Add site URL and topic tags to your repository's information
 
