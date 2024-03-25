@@ -14,7 +14,8 @@ support with lesson setup.
 Workbench](https://carpentries.github.io/sandpaper-docs/) provides a
 standardised lesson format which we are using for the University of
 Sheffield FAIR for Research Software training programme.  The lesson
-content is written as markdown or RMarkdown and rendered using `R` and
+content is written as markdown or [R
+Markdown](https://rmarkdown.rstudio.com/) and rendered using `R` and
 `pandoc`.  Lessons can be developed within the [RStudio
 IDE](https://posit.co/download/rstudio-desktop/#download).
 
@@ -37,10 +38,9 @@ Please refer to [The Carpentries Workbench installation
 instructions](https://carpentries.github.io/sandpaper-docs/#required)
 for setting up your lesson development environment.
 
-Note: if you choose to use to use R Markdown in your lesson then you
-will need the `rmarkdown` package, which should be installed as a
-dependency of the `sandpaper` package by following the instructions
-above.
+If you choose to use R Markdown in your lesson then you will need the
+`rmarkdown` package, which should be installed as a dependency of the
+`sandpaper` package by following the instructions above.
 
 ### Applying custom {varnish} locally
 
@@ -52,12 +52,13 @@ locally, please refer to the following [instructions for installing
 
 To create a new lesson repository, make sure you're logged into GitHub.
 
-The Carpentries Workbench Template is available in two forms, [plain
-markdown](https://github.com/carpentries/workbench-template-md) or [R
-Markdown](https://github.com/carpentries/workbench-template-rmd). In
+The Carpentries Workbench Template is available as a [markdown lesson
+template](https://github.com/carpentries/workbench-template-md) or an
+[R Markdown lesson
+template](https://github.com/carpentries/workbench-template-rmd). In
 the R Markdown version the example episode is written in R Markdown
 and contains an example of dynamic content generated using R, while
-the markdown version contain static content only.
+the markdown version contains static content only.
 
 Visit https://github.com/carpentries/workbench-template-md/generate
 (markdown) or
@@ -87,7 +88,18 @@ cd my-repo
 git apply --index path/to/fair4rs_config.patch
 ```
 
-### Rename `.Rproj` file
+If the patch does not apply cleanly you may see an error message such as:
+
+```
+error: patch failed: config.yaml:17
+error: config.yaml: patch does not apply
+```
+
+Please let us know by [creating an
+issue](https://github.com/tdjames1/fair4rs-lesson-setup/issues/new)
+including details of the error message.
+
+## Rename `.Rproj` file
 
 Rename `FIXME.Rproj` to match your repo name:
 ```
@@ -137,20 +149,49 @@ git commit -m "Update configuration"
 git push
 ```
 
-## Complete setup
+## Complete lesson setup
 
-To complete the setup of your lesson, follow the instructions given
-in [Configure a new lesson](https://github.com/carpentries/workbench-template-md#configure-a-new-lesson) to:
+To complete the setup of your lesson, follow the remaining
+instructions given in [Configure a new
+lesson](https://github.com/carpentries/workbench-template-md#configure-a-new-lesson):
 
-- Make sure GitHub Pages is activated
-- Annotate the repository
-- Update your repository's README with relevant information about your lesson.
+### Activate GitHub Pages for your repository
+
+Navigate to *Settings*, select *Pages* from the left sidebar, and make
+sure that `gh-pages` is selected as the branch to build from. If no
+`gh-pages` branch is available, check *Actions* to see if the first
+website build workflows are still running. The branch should become
+available when those have completed.
+
+Once you've activated GitHub Pages, content pushed to the repository
+will be deployed by GitHub Actions. You can view the lesson website at
+https://USER.github.io/MY-REPO/.
+
+### Add site URL and topic tags to your repository's information
+
+Navigate to the repository landing page and click on the gear
+wheel/cog icon at the top-right of the *About* box. Check the "Use
+your GitHub Pages website" option, and add some keywords and other
+annotations to describe your lesson in the *Topics* field.
+
+### Update README
+
+Replace the setup information in your repository's README with
+relevant information about your lesson.
 
 ## Lesson development
 
 Please refer to the [Introduction to The Carpentries
 Workbench](https://carpentries.github.io/sandpaper-docs/) for further
 documentation.
+
+## Version information
+
+The lesson setup process has been tested with the following revisions
+of the Carpentries Workbench Template:
+
+- [workbench-template-md](https://github.com/carpentries/workbench-template-md): `6c36cf3`
+- [workbench-template-rmd](https://github.com/carpentries/workbench-template-rmd): `3f304af`
 
 ## Licence
 
