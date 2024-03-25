@@ -217,10 +217,10 @@ index 7632871..94f3567 100644
  Permission is hereby granted, free of charge, to any person obtaining a copy of
  this software and associated documentation files (the "Software"), to deal in
 diff --git a/config.yaml b/config.yaml
-index b3bfd79..87445c7 100644
+index b3bfd79..3dd58dd 100644
 --- a/config.yaml
 +++ b/config.yaml
-@@ -17,23 +17,28 @@ title: 'Lesson Title' # FIXME
+@@ -17,11 +17,12 @@ title: 'Lesson Title' # FIXME
  created: ~ # FIXME
  
  # Comma-separated list of keywords for the lesson
@@ -235,12 +235,7 @@ index b3bfd79..87445c7 100644
  
  # License of the lesson
  license: 'CC-BY 4.0'
- 
- # Link to the source repository for this lesson
--source: 'https://github.com/carpentries/workbench-template-md' # FIXME
-+source: 'https://github.com/RSE-Sheffield/example-workbench' # FIXME
- 
- # Default branch of your lesson
+@@ -33,7 +34,11 @@ source: 'https://github.com/carpentries/workbench-template-md' # FIXME
  branch: 'main'
  
  # Who to contact if there are any issues
