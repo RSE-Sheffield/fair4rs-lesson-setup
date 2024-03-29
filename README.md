@@ -15,13 +15,12 @@ Workbench](https://carpentries.github.io/sandpaper-docs/) provides a
 standardised lesson format which we are using for the University of
 Sheffield FAIR for Research Software training programme.  The lesson
 content is written as markdown or [R
-Markdown](https://rmarkdown.rstudio.com/) and rendered using `R` and
-`pandoc`.  Lessons can be developed within the [RStudio
-IDE](https://posit.co/download/rstudio-desktop/#download).
+Markdown](https://rmarkdown.rstudio.com/) and rendered using [`R`][r]
+and [`pandoc`][pandoc].  Lessons can be developed within the
+[RStudio IDE][rstudio]) or any other IDE (e.g. [Emacs][emacs]).
 
 We use a [custom fork](https://github.com/RSE-Sheffield/uos-varnish)
-of [{varnish}](https://github.com/carpentries/varnish) from [The
-Carpentries Workbench](https://carpentries.github.io/workbench) to
+of [{varnish}][varnish] from [The Carpentries Workbench][wb] to
 apply University of Sheffield branding to the lesson theme and to add
 relevant links to training resources to the page footer.
 
@@ -29,9 +28,9 @@ relevant links to training resources to the page footer.
 
 Required software:
 
-- git (>= 2.28 recommended)
-- R (>= 3.6)
-- pandoc (>= 2.11) (available through the [RStudio
+- [git][git] (>= 2.28 recommended)
+- [R][r] (>= 3.6)
+- [pandoc][pandoc] (>= 2.11) (available through the [RStudio
   IDE](https://posit.co/download/rstudio-desktop/#download))
 
 Please refer to [The Carpentries Workbench installation
@@ -39,8 +38,9 @@ instructions](https://carpentries.github.io/sandpaper-docs/#required)
 for setting up your lesson development environment.
 
 If you choose to use R Markdown in your lesson then you will need the
-`rmarkdown` package, which should be installed as a dependency of the
-`sandpaper` package by following the instructions above.
+[{rmarkdown}][rmarkdown] package, which should be installed as a
+dependency of the [{sandpaper}][sandpaper] package by following the
+instructions above.
 
 ### Applying custom {varnish} locally
 
@@ -106,24 +106,28 @@ Rename `FIXME.Rproj` to match your repo name:
 git mv FIXME.Rproj my-repo.Rproj
 ```
 
-## Edit configuration, citation metadata, contributing guide and licence
+## Update Metadata
 
 ### `config.yaml`
 
 This file contains global parameters for your lesson site. Individual
 fields within the file are documented with comments (beginning with
-#). At a minimum, you should adjust all the fields marked 'FIXME':
+`#`). At a minimum, you should adjust all the fields marked `# FIXME`:
 
-* title
-* keywords
-* source
-* contact
-* url
+* `title`
+* `created`
+* `keywords`
+* `source`
+* `contact`
+
+For the `created` field you can enter the current date but typically you
+should adjust this to reflect the date on which you complete preparing
+the material.
 
 ### `CITATION.cff`
 
 This file contains information about citing this repository. At a
-minimum, you should adjust all the fields marked 'FIXME':
+minimum, you should adjust all the fields marked `# FIXME`:
 
 * title
 * authors (given name, family name, email, affiliation, orcid)
@@ -134,17 +138,22 @@ minimum, you should adjust all the fields marked 'FIXME':
 
 ### `CONTRIBUTING.md`
 
-Update links to GitHub repository and issues, marked 'FIXME'.
+Update links to GitHub repository and issues, marked `<!-- # FIXME -->`.
 
 ### `LICENSE.md`
 
 Review the licence text and add references/attribution to any derived
-material as indicated by the `#FIXME` comment.
+material as indicated by the `# FIXME` comment.
+
+### `README.md`
+
+Replace the setup information in your repository's README with
+relevant information about your lesson.
 
 ## Commit changes to configuration, citation metadata, contributing guide and licence
 
 ```
-git add config.yaml CITATION.cff CONTRIBUTING.md LICENSE.md
+git add -u
 git commit -m "Update configuration"
 git push
 ```
@@ -158,14 +167,15 @@ lesson](https://github.com/carpentries/workbench-template-md#configure-a-new-les
 ### Activate GitHub Pages for your repository
 
 Navigate to *Settings*, select *Pages* from the left sidebar, and make
-sure that `gh-pages` is selected as the branch to build from. If no
+sure that the _Source_ is `Deploy from branch` (the default) and
+`gh-pages` is selected as the branch to build from. If no
 `gh-pages` branch is available, check *Actions* to see if the first
 website build workflows are still running. The branch should become
 available when those have completed.
 
 Once you've activated GitHub Pages, content pushed to the repository
 will be deployed automatically by GitHub Actions. You can view the
-lesson website at https://username.github.io/my-repo/.
+lesson website at `https://username.github.io/my-repo/`.
 
 ### Add site URL and topic tags to your repository's information
 
@@ -174,10 +184,6 @@ wheel/cog icon at the top-right of the *About* box. Check the "Use
 your GitHub Pages website" option, and add some keywords and other
 annotations to describe your lesson in the *Topics* field.
 
-### Update README
-
-Replace the setup information in your repository's README with
-relevant information about your lesson.
 
 ## Lesson development
 
@@ -206,3 +212,13 @@ Changes have been made to adapt the instructions for using the
 Carpentries Workbench Template in the specific context of the
 University of Sheffield's FAIR for Research Software training
 programme.
+
+[emacs]: https://www.gnu.org/software/emacs/
+[git]: https://git-scm.com
+[R]: https://www.r-project.org
+[pandoc]: https://pandoc.org
+[rmarkdown]: https://pkgs.rstudio.com/rmarkdown/
+[rstudio]: https://posit.co/download/rstudio-desktop/#downlod
+[sandpaper]: https://github.com/carpentries/sandpaper
+[varnish]: https://github.com/carpentries/varnish
+[wb]: https://github.com/carpentries/wb
