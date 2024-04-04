@@ -137,7 +137,7 @@ minimum, you should adjust all the fields marked `# FIXME`:
 
 ### `CONTRIBUTING.md`
 
-Update links to GitHub repository and issues, marked `<!-- # FIXME -->`.
+Update links to GitHub repository and issues, marked `#FIXME`.
 
 ### `LICENSE.md`
 
