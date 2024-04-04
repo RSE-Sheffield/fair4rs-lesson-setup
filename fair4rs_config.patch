@@ -3,7 +3,7 @@ new file mode 100644
 index 0000000..5c69f4d
 --- /dev/null
 +++ b/CITATION.cff
-@@ -0,0 +1,23 @@
+@@ -0,0 +1,24 @@
 +# This CITATION.cff file was generated with cffinit.
 +# Visit https://bit.ly/cffinit to generate yours today!
 +
@@ -26,6 +26,7 @@ index 0000000..5c69f4d
 +keywords: # FIXME
 +  - carpentries
 +  - fair4rs
++  - university of sheffield
 +license: CC-BY-4.0
 diff --git a/CODE_OF_CONDUCT.md b/CODE_OF_CONDUCT.md
 index f19b804..40bd303 100644
@@ -143,10 +144,12 @@ index 6c2b81c..f71bc09 100644
 -community listed at <https://carpentries.org/connect/> including via social
 -media, slack, newsletters, and email lists. You can also [reach us by
 -email][contact].
- 
- [repo]: https://example.com/FIXME
- [repo-issues]: https://example.com/FIXME/issues
+
+-[repo]: https://example.com/FIXME
+-[repo-issues]: https://example.com/FIXME/issues
 -[contact]: mailto:team@carpentries.org
++[repo]: https://github.com/<account>/<repo>#FIXME
++[repo-issues]: https://github.com/<account>/<repo>/issues#FIXME
 +[contact]: mailto:rse@sheffield.ac.uk
  [cp-site]: https://carpentries.org/
  [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
