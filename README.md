@@ -30,8 +30,7 @@ Required software:
 
 - [git][git] (>= 2.28 recommended)
 - [R][r] (>= 3.6)
-- [pandoc][pandoc] (>= 2.11) (available through the [RStudio
-  IDE](https://posit.co/download/rstudio-desktop/#download))
+- [pandoc][pandoc] (>= 2.11) (available through the [RStudio IDE][rstudio])
 
 Please refer to [The Carpentries Workbench installation
 instructions](https://carpentries.github.io/sandpaper-docs/#required)
