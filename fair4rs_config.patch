@@ -148,8 +148,8 @@ index 6c2b81c..f71bc09 100644
 -[repo]: https://example.com/FIXME
 -[repo-issues]: https://example.com/FIXME/issues
 -[contact]: mailto:team@carpentries.org
-+[repo]: https://gibhub.com/<account>/<repo>                 <!-- # FIXME -->
-+[repo-issues]: https://github.com/<account>/<repo>/issues   <!-- # FIXME -->
++[repo]: https://github.com/<account>/<repo>#FIXME
++[repo-issues]: https://github.com/<account>/<repo>/issues#FIXME
 +[contact]: mailto:rse@sheffield.ac.uk
  [cp-site]: https://carpentries.org/
  [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
