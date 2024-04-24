@@ -78,7 +78,12 @@ git clone git@github.com:path/to/my-repo.git
 
 ## Download and apply the patch file
 
-Download [fair4rs\_config.patch](https://raw.githubusercontent.com/RSE-Sheffield/fair4rs-lesson-setup/main/fair4rs_config.patch).
+Download
+[fair4rs\_config.patch](https://raw.githubusercontent.com/RSE-Sheffield/fair4rs-lesson-setup/main/fair4rs_config.patch)
+by right-clicking and choosing "Save page as...".  Note that on
+Windows the file may be saved with the `.txt` file extension, which
+means that you'll need to modify the file name in the `git apply`
+command below.
 
 Apply the patch file to the lesson repository:
 
